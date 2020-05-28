@@ -101,14 +101,17 @@
     }
 
     function resize() {
-        width = window.innerWidth;
-        height = window.innerHeight;
-        largeHeader.style.height = height + 'px';
-        canvas.width = width;
-        canvas.height = height;
+        console.log(width, window.innerWidth);
+        if (width != window.innerWidth) {
+            width = window.innerWidth;
+            height = window.innerHeight;
+            largeHeader.style.height = height + 'px';
+            canvas.width = width;
+            canvas.height = height;
 
-        initHeader();
-        initAnimation();
+            initHeader();
+            initAnimation();
+        }
     }
 
     // animation
