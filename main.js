@@ -959,7 +959,7 @@ var StrengthsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-title demo\">\n  <div class=\"content\">\n    <div id=\"large-header\" class=\"large-header\">\n      <canvas id=\"demo-canvas\"></canvas>\n      <h1 class=\"main-title\">\n        1The <strong>pursuit</strong> of a more<br><strong>effecient</strong> and <strong>beautiful</strong> web\n      </h1>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"container-title demo\">\n  <div class=\"content\">\n    <div id=\"large-header\" class=\"large-header\">\n      <canvas id=\"demo-canvas\"></canvas>\n      <h1 class=\"main-title\">\n        The <strong>pursuit</strong> of a more<br><strong>effecient</strong> and <strong>beautiful</strong> web\n      </h1>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
