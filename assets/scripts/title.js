@@ -22,10 +22,14 @@
 
         // create points
         points = [];
-        for (var x = 0; x < width; x = x + width / 20) {
-            for (var y = 0; y < height; y = y + height / 20) {
-                var px = x + Math.random() * width / 20;
-                var py = y + Math.random() * height / 20;
+        pointsDivision = 20;
+        if (width < 768) {
+            pointsDivision = 10;
+        }
+        for (var x = 0; x < width; x = x + width / pointsDivision) {
+            for (var y = 0; y < height; y = y + height / pointsDivision) {
+                var px = x + Math.random() * width / pointsDivision;
+                var py = y + Math.random() * height / pointsDivision;
                 var p = { x: px, originX: px, y: py, originY: py };
                 points.push(p);
             }
