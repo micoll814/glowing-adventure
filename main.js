@@ -621,7 +621,7 @@ var HobbyComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- <a href=\"#\"><img src=\"/assets/images/logos/logo.svg\"></a> -->\n<p style=\"color: white;\">{{width}} | {{widthEnd}}</p>\n\n<nav>\n  <a href=\"#about\">About</a>\n  <a href=\"#skills\">Skills</a>\n  <a href=\"#strengths\">Strengths</a>\n  <a href=\"#experience\">Experience</a>\n  <a href=\"#education\">Education</a>\n  <a href=\"#passions\">Passions</a>\n  <a href=\"#contact\">Contact</a>\n</nav>"
+module.exports = "<a href=\"#\"><img src=\"/assets/images/logos/logo.svg\"></a>\n\n<nav>\n  <a href=\"#about\">About</a>\n  <a href=\"#skills\">Skills</a>\n  <a href=\"#strengths\">Strengths</a>\n  <a href=\"#experience\">Experience</a>\n  <a href=\"#education\">Education</a>\n  <a href=\"#passions\">Passions</a>\n  <a href=\"#contact\">Contact</a>\n</nav>"
 
 /***/ }),
 
@@ -659,13 +659,8 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 var NavbarComponent = /** @class */ (function () {
     function NavbarComponent() {
-        this.width = window.innerWidth;
     }
     NavbarComponent.prototype.ngOnInit = function () {
-        var self = this;
-        window.addEventListener('resize', function () {
-            self.widthEnd = window.innerWidth;
-        });
     };
     NavbarComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
