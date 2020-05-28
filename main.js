@@ -621,7 +621,7 @@ var HobbyComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<a href=\"#\"><img src=\"./assets/images/logos/logo.svg\"></a>\n<h5>Michael Colliver</h5>\n\n<nav>\n  <a href=\"#about\">About</a>\n  <a href=\"#skills\">Skills</a>\n  <a href=\"#strengths\">Strengths</a>\n  <a href=\"#experience\">Experience</a>\n  <a href=\"#education\">Education</a>\n  <a href=\"#passions\">Passions</a>\n  <a href=\"#contact\">Contact</a>\n</nav>"
+module.exports = "<a href=\"#\"><img src=\"/assets/images/logos/logo.svg\"></a>\n<h5>Michael Colliver</h5>\n\n<nav>\n  <a href=\"#about\">About</a>\n  <a href=\"#skills\">Skills</a>\n  <a href=\"#strengths\">Strengths</a>\n  <a href=\"#experience\">Experience</a>\n  <a href=\"#education\">Education</a>\n  <a href=\"#passions\">Passions</a>\n  <a href=\"#contact\">Contact</a>\n</nav>"
 
 /***/ }),
 
