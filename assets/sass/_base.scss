@@ -1,0 +1,106 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+html,
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    background: #222;
+    font-size: 0;
+}
+html {
+    font: 400 62.5% "Lato";
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+    background: #222; /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #555; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 4.2rem;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 3.8rem;
+}
+h3 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+h4 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+h5 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+h6 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+small {
+    font-size: 80%;
+}
+em {
+    font-style: italic;
+}
+p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-top: 0;
+}
+ul {
+    list-style-type: disc;
+    font-size: 1.4rem;
+    padding-left: 1.4rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+
+    &.anchor {
+        display: block;
+        position: relative;
+        top: -8rem;
+        visibility: hidden;
+    }
+}
+section {
+    display: block;
+    position: relative;
+}
+div {
+    display: block;
+    position: relative;
+}
