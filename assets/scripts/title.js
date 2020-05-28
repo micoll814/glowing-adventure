@@ -101,7 +101,6 @@
     }
 
     function resize() {
-        console.log(width, window.innerWidth);
         if (width != window.innerWidth) {
             width = window.innerWidth;
             height = window.innerHeight;
