@@ -24,7 +24,7 @@
         points = [];
         pointsDivision = 20;
         if (width < 768) {
-            pointsDivision = 3;
+            pointsDivision = 7;
         }
         for (var x = 0; x < width; x = x + width / pointsDivision) {
             for (var y = 0; y < height; y = y + height / pointsDivision) {
